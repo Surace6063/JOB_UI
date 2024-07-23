@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+input,select,textarea{
+  @apply border border-gray-300 p-2 rounded-md w-full focus:outline-none focus:border-teal-400
+}
+
+label{
+  @apply block text-gray-800 font-semibold
+}
+
+
+.btn{
+  @apply p-2 rounded-md text-white w-full
+}
